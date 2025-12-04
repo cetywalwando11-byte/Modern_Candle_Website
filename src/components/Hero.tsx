@@ -55,7 +55,7 @@ export function Hero() {
               {/* Main circular image */}
               <div className="relative rounded-full overflow-hidden aspect-square shadow-2xl border-4 sm:border-8 border-white">
                 <ImageWithFallback
-                  src="src\assets\2Radiance_Of_Love.jpg"
+                  src="/src/assets/2Radiance_Of_Love.jpg"
                   alt="2Radiance_Of_Love"
                   className="w-full h-full object-cover"
                 />
@@ -64,7 +64,7 @@ export function Hero() {
               {/* Small circular accent images */}
               <div className="absolute -top-8 -right-8 w-32 h-32 rounded-full overflow-hidden shadow-xl border-4 border-white hidden lg:block">
                 <ImageWithFallback
-                  src="src\assets\1Healing_Flame_Collection.jpg"
+                  src="/src/assets/1Healing_Flame_Collection.jpg"
                   alt="1Healing_Flame_Collection"
                   className="w-full h-full object-cover"
                 />
@@ -72,7 +72,7 @@ export function Hero() {
 
               <div className="absolute -bottom-8 -left-8 w-40 h-40 rounded-full overflow-hidden shadow-xl border-4 border-white hidden lg:block">
                 <ImageWithFallback
-                  src="src\assets\3Radiance_Of_Love_Collection.jpg"
+                  src="/src/assets/3Radiance_Of_Love_Collection.jpg"
                   alt="3Radiance_Of_Love_Collection"
                   className="w-full h-full object-cover"
                 />
