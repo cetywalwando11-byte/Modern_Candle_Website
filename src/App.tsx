@@ -12,6 +12,9 @@ export default function App() {
   return (
     <CartProvider>
       <div className="min-h-screen bg-white">
+        {/* Debug: Force cache bust */}
+        <div style={{display: 'none'}}>Build: {Date.now()}</div>
+        
         {/* Navigation */}
         <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
           <div className="container mx-auto px-4 sm:px-6">
@@ -152,7 +155,7 @@ export default function App() {
         {/* Footer */}
         <footer className="bg-gray-900 text-white py-8">
           <div className="container mx-auto px-4 text-center">
-            <p>&copy; 2024 Modern Candle Website. All rights reserved. v2.0</p>
+            <p>&copy; 2024 Modern Candle Website. All rights reserved. v3.0 - FULL SITE LOADED</p>
           </div>
         </footer>
       </div>
