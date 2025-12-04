@@ -19,7 +19,7 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
             onClick={() => onNavigate('home')}
             className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity"
           >
-            <img src="/src/assets/a808e91a19884ca676f823c3db771ad05c6384e2.png" alt="Candid Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
+            <img src="/a808e91a19884ca676f823c3db771ad05c6384e2.png" alt="Candid Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
             <span className="text-base sm:text-lg md:text-xl">
               Candid <span className="text-amber-600">candles and more</span>
             </span>

@@ -22,7 +22,12 @@ export default function App() {
 
   return (
     <CartProvider>
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-white">
+        {/* Debug text to ensure app is rendering */}
+        <div className="fixed top-0 left-0 z-50 bg-red-500 text-white p-2 text-xs">
+          App Loaded - Page: {currentPage}
+        </div>
+        
         <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
         
         {currentPage === 'home' && (

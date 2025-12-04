@@ -62,7 +62,7 @@ export function ProductCollection() {
         <div className="mb-12 sm:mb-16 max-w-4xl mx-auto">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-100">
             <img
-              src="/src/assets/00b36f880fdb05bdc0371b1e628631b6df19e37c.png"
+              src="/00b36f880fdb05bdc0371b1e628631b6df19e37c.png"
               alt="Radiance of Love Collection"
               className="w-full h-auto"
             />
