@@ -174,14 +174,14 @@ export function ShopPage() {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-amber-100 to-orange-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <span className="text-2xl sm:text-3xl">🌿</span>
+                <span className="text-2xl sm:text-3xl"></span>
               </div>
               <h3 className="text-base sm:text-lg mb-2">Natural</h3>
               <p className="text-xs sm:text-sm text-gray-600">100% soy wax and essential oils</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-amber-100 to-orange-100 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <span className="text-2xl sm:text-3xl">🎁</span>
+                <span className="text-2xl sm:text-3xl"></span>
               </div>
               <h3 className="text-base sm:text-lg mb-2">Gift Ready</h3>
               <p className="text-xs sm:text-sm text-gray-600">Beautiful packaging included</p>

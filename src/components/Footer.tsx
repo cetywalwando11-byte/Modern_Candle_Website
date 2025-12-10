@@ -1,4 +1,7 @@
-import { Instagram, Facebook, Twitter, Mail } from "lucide-react";
+// At the top of your file, before your component
+import { Instagram, Facebook, Twitter, Mail } from 'lucide-react';
+
+// ... rest of your component code
 
 export function Footer() {
   return (

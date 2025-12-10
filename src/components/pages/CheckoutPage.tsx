@@ -6,7 +6,7 @@ import { Textarea } from "../ui/textarea";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import { Minus, Plus, Trash2, Package, Truck, CreditCard, ShoppingBag } from "lucide-react";
 import { useState } from "react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function CheckoutPage() {
   const { cart, updateQuantity, removeFromCart, getCartTotal, clearCart } = useCart();
