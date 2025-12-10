@@ -25,7 +25,7 @@ export function AboutPage() {
               <div className="relative w-full max-w-md mx-auto">
                 <div className="relative rounded-full overflow-hidden aspect-square shadow-2xl border-4 sm:border-8 border-amber-50">
                   <ImageWithFallback
-                    src="src\assets\4Home_Placement.jpg"
+                    src="/4Home_Placement.jpg"
                     alt="4Home_Placement"
                     className="w-full h-full object-cover"
                   />

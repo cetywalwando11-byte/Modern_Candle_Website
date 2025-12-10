@@ -10,7 +10,7 @@ const products = [
     name: "Std Glass candles",
     scent: "",
     price: 165,
-    image: "src/assets/Std Glass candles.jpg",
+    image: "/Std Glass candles.jpg",
     description: "Classic glass jar candles for everyday use"
   },
   {
@@ -18,7 +18,7 @@ const products = [
     name: "Jumbo glass jar",
     scent: "",
     price: 185,
-    image: "src/assets/Jumbo glass jar.jpg",
+    image: "/Jumbo glass jar.jpg",
     description: "Large size for extended burn time"
   },
   {
@@ -26,7 +26,7 @@ const products = [
     name: "Modern Pillar candle",
     scent: "",
     price: 100,
-    image: "src/assets/Modern Pillar candle.jpg",
+    image: "/Modern Pillar candle.jpg",
     description: "Contemporary pillar design"
   },
   {
@@ -34,7 +34,7 @@ const products = [
     name: "Bubble candles",
     scent: "",
     price: 80,
-    image: "src/assets/Bubble candles.jpg",
+    image: "/Bubble candles.jpg",
     description: "Unique bubble-shaped decorative candles"
   },
   {
@@ -42,7 +42,7 @@ const products = [
     name: "Sip and Melt",
     scent: "",
     price: 500,
-    image: "src/assets/Sip and Melt.jpg",
+    image: "/Sip and Melt.jpg",
     description: "Premium candle and beverage experience set"
   }
 ];
