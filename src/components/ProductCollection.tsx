@@ -9,7 +9,7 @@ const products = [
     name: "Std Glass candles",
     scent: "",
     price: "R165.00",
-    image: "https://images.unsplash.com/photo-1631021967299-59d54f546248?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnbGFzcyUyMGphciUyMGNhbmRsZXxlbnwxfHx8fDE3NjI4MDI5MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "src/assets/Std Glass candles.jpg",
     badge: null
   },
   {
@@ -17,7 +17,7 @@ const products = [
     name: "Jumbo glass jar",
     scent: "",
     price: "R185.00",
-    image: "https://images.unsplash.com/photo-1641837225643-f999493f6375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqdW1ibyUyMGphciUyMGNhbmRsZXxlbnwxfHx8fDE3NjI4MDI5Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "src/assets/Jumbo glass jar.jpg",
     badge: null
   },
   {
@@ -25,7 +25,7 @@ const products = [
     name: "Modern Pillar candle",
     scent: "",
     price: "R100.00",
-    image: "https://images.unsplash.com/photo-1681394962525-45cb10b65d9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaWxsYXIlMjBjYW5kbGUlMjBtb2Rlcm58ZW58MXx8fHwxNzYyODAyOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "src/assets/Modern Pillar candle.jpg",
     badge: null
   },
   {
@@ -33,7 +33,7 @@ const products = [
     name: "Bubble candles",
     scent: "",
     price: "R80.00",
-    image: "https://images.unsplash.com/photo-1658760046471-896cbc719c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWJibGUlMjBjYW5kbGUlMjBhZXN0aGV0aWN8ZW58MXx8fHwxNzYyODAyOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "src/assets/Bubble candles.jpg",
     badge: null
   },
   {
@@ -41,7 +41,7 @@ const products = [
     name: "Sip and Melt",
     scent: "",
     price: "R500.00",
-    image: "https://images.unsplash.com/photo-1583699520128-c1c9a80733ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYW5kbGUlMjBtZWx0aW5nJTIwd2F4fGVufDF8fHx8MTc2MjgwMjkzOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "src/assets/Sip and Melt.jpg",
     badge: null
   }
 ];
@@ -62,7 +62,7 @@ export function ProductCollection() {
         <div className="mb-12 sm:mb-16 max-w-4xl mx-auto">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-100">
             <img
-              src="/00b36f880fdb05bdc0371b1e628631b6df19e37c.png"
+              src="src/assets/candid candle collection.jpeg"
               alt="Radiance of Love Collection"
               className="w-full h-auto"
             />
