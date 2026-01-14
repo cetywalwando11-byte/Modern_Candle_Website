@@ -12,8 +12,8 @@ export function About() {
               {/* Main circular image */}
               <div className="relative rounded-full overflow-hidden aspect-square shadow-2xl border-4 sm:border-8 border-amber-50">
                 <ImageWithFallback
-                  src="/4Home_Placement.jpg"
-                  alt="4Home_Placement"
+                  src="src/assets/about.png"
+                  alt="about.png"
                   className="w-full h-full object-cover"
                 />
               </div>

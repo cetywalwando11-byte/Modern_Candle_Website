@@ -61,11 +61,7 @@ export function ProductCollection() {
         {/* Featured Collection Image */}
         <div className="mb-12 sm:mb-16 max-w-4xl mx-auto">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-100">
-            <img
-              src="src/assets/candid candle collection.jpeg"
-              alt="Radiance of Love Collection"
-              className="w-full h-auto"
-            />
+           
           </div>
         </div>
 
